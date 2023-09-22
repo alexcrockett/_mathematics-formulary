@@ -25,7 +25,7 @@ For these reasons _and to keep me focused_ the outline below represents a taskli
 				Maple
 				Stata
 				Scilab
-		**2 Basic rules for equations**                              <------ Currently in progress
+		**2 Basic rules for equations**                         <------ Currently in progress
 			2.1 Positive and Negative Signs
 			2.1.1 Addition and Subtraction
 			2.1.2 Multiplication and Division
@@ -80,7 +80,7 @@ For these reasons _and to keep me focused_ the outline below represents a taskli
 				Maple
 				Stata
 				Scilab
-		**7 Derivatives**                              <------ Currently in progress
+		**7 Derivatives**                         <------ Currently in progress
 			7.1 Basic equations for a derivative
 			7.2 Properties of Derivative
 			7.3 Elementary Derivatives
