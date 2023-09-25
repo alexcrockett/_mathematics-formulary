@@ -1,13 +1,16 @@
 # Mathematics formulary
 
 ### What this is
+
 In this repo I will be building a mathematics formulary. The formulary will cover essential topics, rules and considerations when working with equations up to and including differential calculus, statistics and analysis.
 
 ### Why it started
+
 The idea of a formulary started because I wanted my own handy reference, not just for the formulas, but also to have a single source (I could use like an index) for code. I decided to learn Maple, Scilab, Python. SciLab because I don't want to pay for MatLab and it seems to be, for my purposes, just as good. Maple becuase I can see long term potential in having software that can perform the symbolic manipulation it can and Python becuase it makes practical sense (and is free to use).
 
 ### What to expect
-I am currently studying mathematics (full-time) as I work (full-time). This creates some limits on my rate of progress. However, this is an active project. In addition, I only want to include formulas and methods for topics I already understand. 
+
+I am currently studying mathematics (full-time) as I work (full-time). This creates some limits on my rate of progress. However, this is an active project. In addition, I only want to include formulas and methods for topics I already understand.
 
 For these reasons _and to keep me focused_ the outline below represents a tasklist (and statement of intent). As sections are written I'll include links to those sections in the outline. I will also keep this document up-to-date as things change.
 
