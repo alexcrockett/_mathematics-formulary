@@ -2,17 +2,23 @@
 
 ### What this is
 
-In this repo I will be building a mathematics formulary. The formulary will cover essential topics, rules and considerations when working with equations up to and including differential calculus, statistics and analysis.
+This is a formulary and set of notes I am creating as part of my own mathematics study and revision. The formulary will cover essential topics, rules and considerations when working with equations up to and including differential equations, introductory linear algebra and statistics.
 
 ### Why it started
 
-The idea for a formulary started because I wanted my own handy reference, not just for the formulas, but also to have a single source to refer to. As a relative tyro and with lots of tests coming up it just made sense to have one. What the formulary is turning into is really revision in its own right as I progress in other areas of mathematics.
+The idea for a formulary started with upcoming exams. I wanted a handy reference and everything I found had one of the following problems:
 
+- It was too basic
+- It was too advanced
+- It was missing material
+- Explanations were poor or did not exist
+
+As a relative tyro and with tests coming up it just made sense to start writing my own.
 ### What to expect
 
-I am currently studying mathematics (full-time) as I work (full-time). This creates some limits on my rate of progress. However, this is an active project. In addition, I only want to include formulas and methods for topics I already understand.
+I am studying (full-time) and working (full-time). This creates some limits on my free time. However, this is an active project, along with learning Python, Scilab, Stata and Maple, it is is important for me to complete it. 
 
-For these reasons _and to keep me focused_ the outline below represents a tasklist (and statement of intent). As sections are written I'll include links to those sections in the outline. I will also keep this document up-to-date as things change.
+I have therefore created the outline below as a personal guide (that I will keep updating. It can also be used as a draft content. I welcome comments and feedback, especially where it helps to improve the usability of the formulary, where I have made mistakes or where my understanding is improved.
 
 ```
 ***Working outline**
