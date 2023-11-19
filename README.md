@@ -14,9 +14,10 @@ The idea for a formulary started with upcoming exams. I wanted a handy reference
 - Explanations were poor or did not exist
 
 As a relative tyro and with tests coming up it just made sense to start writing my own.
+
 ### What to expect
 
-I am studying (full-time) and working (full-time). This creates some limits on my free time. However, this is an active project, along with learning Python, Scilab, Stata and Maple, it is is important for me to complete it. 
+I am studying (full-time) and working (full-time). This creates some limits on my free time. However, this is an active project, along with learning Python, Scilab, Stata and Maple, it is is important for me to complete it.
 
 I have therefore created the outline below as a personal guide (that I will keep updating. It can also be used as a draft content. I welcome comments and feedback, especially where it helps to improve the usability of the formulary, where I have made mistakes or where my understanding is improved.
 
@@ -46,8 +47,10 @@ I have therefore created the outline below as a personal guide (that I will keep
 		**02 Functions**
 			02.1 Notation
 			02.2 Forms
-				02.2.1 Pairwise
-			02.3 Types and Graphs
+				02.2.1 Standard functions
+				02.2.2 Pairwise functions
+				02.2.3 Composition
+			02.3 Evaluating and solving
 			02.4 Domain and Range
 			02.5 Transformation of functions
 			02.6 Polynomials
