@@ -15,6 +15,13 @@ The idea for a formulary started with upcoming exams. I wanted a handy reference
 
 As a relative tyro and with tests coming up it just made sense to start writing my own.
 
+### A quick note on graphs, images and assets
+
+- As much as possible images of graphs are provided in the files.
+- I used Obsidian with the plugin '[Obsidian Functionplot](https://github.com/leonhma/obsidian-functionplot)'and the original code to render the graphs in Obsidian with this plugin installed is provided in the text.
+- There is a Maple file with graphed functions and the graphs/plots that I exported as images that you can also play with.
+- At a later stage I will create Jupyter files and update here once I do.
+- All assets are available in the assets directory.
 ### What to expect
 
 I am studying (full-time) and working (full-time). This creates some limits on my free time. However, this is an active project, along with learning Python, Scilab, Stata and Maple, it is is important for me to complete it.
