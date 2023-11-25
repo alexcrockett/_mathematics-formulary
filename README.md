@@ -19,6 +19,7 @@ As a relative tyro and with tests coming up it just made sense to start writing 
 
 - As much as possible images of graphs are provided in the files.
 - I used Obsidian with the plugin '[Obsidian Functionplot](https://github.com/leonhma/obsidian-functionplot)'and the original code to render the graphs in Obsidian with this plugin installed is provided in the text.
+- At a later stage I will provide Python code for all the graphs.
 - There is a Maple file with graphed functions and the graphs/plots that I exported as images that you can also play with.
 - At a later stage I will create Jupyter files and update here once I do.
 - All assets are available in the assets directory.
@@ -82,6 +83,7 @@ I have therefore created the outline below as a personal guide (that I will keep
 		**04 Limits, bounds and behaviors**
 			04.1 Limits definition
 			04.2 Evaluating limits
+				0.4.1 L'Hôpital's rule
 			04.3 Operations on limits
 			
 		**05 Derivatives** 
