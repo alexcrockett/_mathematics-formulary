@@ -72,6 +72,8 @@ I have therefore created the outline below as a personal guide (that I will keep
 				02.13.1 The relationship between logs and exponents
 			02.14 Trig Functions
 			02.15 Inverse Functions
+			2.1.6 Functions implicitly defined
+			02.17 Functions of two or more variables
 		
 		**03 Basic Equations for a line**
 			03.1 Distance Between Points
