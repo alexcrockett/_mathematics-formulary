@@ -2,7 +2,7 @@
 
 ### What this is
 
-This is a formulary and set of notes I am creating as part of my own mathematics study and revision. The formulary will cover essential topics, rules and considerations when working with equations up to and including differential equations, introductory linear algebra and statistics.
+This is a formulary and set of notes I am writing as part of my own mathematics study. The formulary will cover essential topics, rules and considerations when working with equations up to and including differential equations, introductory linear algebra and statistics. As I write it, a focus on the behavior of equations and their operations is emerging. Therefore, it is a sort of 'meta-formulary' which also deals with the behavior of terms of functions.
 
 ### Why it started
 
@@ -19,9 +19,8 @@ As a relative tyro and with tests coming up it just made sense to start writing 
 
 - As much as possible images of graphs are provided in the files.
 - I used Obsidian with the plugin '[Obsidian Functionplot](https://github.com/leonhma/obsidian-functionplot)'and the original code to render the graphs in Obsidian with this plugin installed is provided in the text.
-- At a later stage I will provide Python code for all the graphs.
-- There is a Maple file with graphed functions and the graphs/plots that I exported as images that you can also play with.
-- At a later stage I will create Jupyter files and update here once I do.
+- *At a later stage I will provide Python code and jupyter files for all the graphs and functions.*
+- There are Maple files, section by section, each with graphed functions. These are also visible in the text.
 - All assets are available in the assets directory.
 
 ### What to expect
@@ -139,6 +138,7 @@ I have therefore created the outline below as a personal guide (that I will keep
 			10.3 Harmonic
 			10.4 Power series
 			10.5 Taylor's Theorem
+			10.6 Recurrence equations
 
 
     I am still developing outlines for:
