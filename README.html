@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>readme</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="README_files/libs/clipboard/clipboard.min.js"></script>
+<script src="README_files/libs/quarto-html/quarto.js"></script>
+<script src="README_files/libs/quarto-html/popper.min.js"></script>
+<script src="README_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="README_files/libs/quarto-html/anchor.min.js"></script>
+<link href="README_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="README_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="README_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="README_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="README_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+
+
+<section id="mathematics-formulary" class="level1">
+<h1>Mathematics formulary</h1>
+<section id="what-this-is" class="level3">
+<h3 class="anchored" data-anchor-id="what-this-is">What this is</h3>
+<p>This is a formulary and set of notes I am writing as part of my own mathematics study. The formulary will cover essential topics, rules and considerations when working with equations up to and including differential equations, introductory linear algebra and statistics. As I write it, a focus on the behavior of equations and their operations is emerging. Therefore, it is a sort of ‘meta-formulary’ which also deals with the behavior of terms of functions.</p>
+</section>
+<section id="why-it-started" class="level3">
+<h3 class="anchored" data-anchor-id="why-it-started">Why it started</h3>
+<p>The idea for a formulary started with upcoming exams. I wanted a handy reference and everything I found had one of the following problems:</p>
+<ul>
+<li>It was too basic</li>
+<li>It was too advanced</li>
+<li>It was missing material</li>
+<li>Explanations were poor or did not exist</li>
+</ul>
+<p>As a relative tyro and with tests coming up it just made sense to start writing my own.</p>
+</section>
+<section id="a-quick-note-on-graphs-images-and-assets" class="level3">
+<h3 class="anchored" data-anchor-id="a-quick-note-on-graphs-images-and-assets">A quick note on graphs, images and assets</h3>
+<ul>
+<li>As much as possible images of graphs are provided in the files.</li>
+<li>I used Obsidian with the plugin ’<a href="https://github.com/leonhma/obsidian-functionplot">Obsidian Functionplot</a>’and the original code to render the graphs in Obsidian with this plugin installed is provided in the text.</li>
+<li><em>At a later stage I will provide Python code and jupyter files for all the graphs and functions.</em></li>
+<li>There are Maple files, section by section, each with graphed functions. These are also visible in the text.</li>
+<li>All assets are available in the assets directory.</li>
+</ul>
+</section>
+<section id="what-to-expect" class="level3">
+<h3 class="anchored" data-anchor-id="what-to-expect">What to expect</h3>
+<p>I am studying (full-time) and working (full-time). This creates some limits on my free time. However, this is an active project, along with learning Python, Scilab, Stata and Maple, it is is important for me to complete it.</p>
+<p>I have therefore created the outline below as a personal guide (that I will keep updating. It can also be used as a draft content. I welcome comments and feedback, especially where it helps to improve the usability of the formulary, where I have made mistakes or where my understanding is improved.</p>
+<pre><code>***Working outline**
+        **00 Notation, sets and logic**
+            00.1 Sets
+                00.1.1 Working with sets (operations)
+            00.2 Arithmetic and algebraic
+            00.3 Basic notation from calculus
+            00.4 Statistical notation
+            00.5 Summation operator
+            00.6 Product operator
+            
+        **01 Some equation basics**
+            01.1 Positive and Negative Signs
+            01.1.1 Addition and Subtraction
+            01.1.2 Multiplication and Division
+            01.1.3 Factoring
+            01.1.4 Distributing
+            01.2 Manipulating equations
+            01.3 Simplifying equations
+            01.4 Power rules
+            01.5 Radical Expressions
+            01.6 Simultaneous Equations
+            
+        **02 Functions**
+            02.1 Notation
+            02.2 Forms
+                02.2.1 Standard functions
+                02.2.2 Pairwise functions
+                02.2.3 Composition
+            02.3 Evaluating and solving
+            02.4 Domain and Range
+            02.5 Transformation of functions
+            02.6 Polynomials
+            02.7 Binomial theorem
+            02.8 Pascals Triangle
+            02.9 Vertices
+            02.10 The quadratic formula
+            02.11 Completing the square
+            02.12 Graphs of Polynomials
+            02.13 Logarithms and Exponentials
+                02.13.1 The relationship between logs and exponents
+            02.14 Trig Functions
+            02.15 Inverse Functions
+            2.1.6 Functions implicitly defined
+            02.17 Functions of two or more variables
+        
+        **03 Basic Equations for a line**
+            03.1 Distance Between Points
+            03.2 Secants and Tangents
+            
+        **04 Limits, bounds and behaviors**
+            04.1 Limits definition
+            04.2 Evaluating limits
+                0.4.1 L'Hôpital's rule
+            04.3 Operations on limits
+            
+        **05 Derivatives** 
+            05.1 Basic equations for a derivative
+            05.2 Properties of Derivative
+            05.3 Elementary Derivatives
+            05.4 Implicit functions and Derivates
+            05.5 Using Derivatives to Approximate
+            05.6 Elasticity
+            05.7 Homogenous Functions and Euler’s Theorem
+            05.8 Multiple variables
+                05.8.1 Tangent plane
+            05.9 Gradients
+            05.10 Optimization
+                05.10.1 Single variable
+                05.10.2 Several variables
+                05.10.3 Constrained optimization
+                05.10.4 Lagrangians
+            
+        **06 Differential equations**
+            06.1 Basic concepts
+            06.2 Separable of order 1
+            06.3 Linear of order 1
+            06.4 Partial of order 1
+            06.5 Second order equations
+            
+        **07 Integrals**
+            07.1 Defining an Integral
+            07.2 Riemann Sums
+            07.3 The Definite Integral
+            07.4 Standard Integrals
+            07.5 Properties of Integrals
+            07.6 Methods of Integration
+                07.6.1 Substitution
+                07.6.2 Integration by parts
+                07.6.3 Partial Fractions
+            07.7 Integrals and Consumer Surplus
+      
+        **08 Vectors**
+            
+        **09 Matrices**
+            09.1 Notation
+            09.2 Multiplication of Matrices
+            09.3 Properties of Matrices
+            09.4 Determinants
+            09.5 Inverse Matrices and their calculation
+            09.6 Adjugate matrix, cofactors and minors
+            09.7 Solving systems of equations
+            
+        **10 Sequences and Series**
+            10.1 Arithmetic
+            10.2 Geometric
+            10.3 Harmonic
+            10.4 Power series
+            10.5 Taylor's Theorem
+            10.6 Recurrence equations
+
+
+    I am still developing outlines for:
+        Measures of tendency and dispersion
+        Probability and Probability Laws
+        Conditional Probability
+        Bayes Formula
+        Total Probability
+        The Normal Distribution</code></pre>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
