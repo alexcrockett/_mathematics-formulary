@@ -4,6 +4,8 @@
 
 This is a formulary and set of notes I am writing as part of my own mathematics study. The formulary will cover essential topics, rules and considerations when working with equations up to and including differential equations, introductory linear algebra and statistics. As I write it, a focus on the behavior of equations and their operations is emerging. Therefore, it is a sort of 'meta-formulary' which also deals with the behavior of terms of functions.
 
+Much of the content here will be given with much more complete treatment on [my website](https://hyphenunderscore.com/mathematics/), feel free to dive in.
+
 ### Why it started
 
 The idea for a formulary started with upcoming exams. I wanted a handy reference and everything I found had one of the following problems:
